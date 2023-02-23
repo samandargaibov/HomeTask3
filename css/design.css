@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+a{
+    text-decoration: none;
+}
+p{
+   color: rgba(255, 255, 255, 0.75);
+}
+
+.header a{
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.logo{
+    float: left;
+    font-size: 30px;
+    margin-top: -10px;
+}
+.logo a{
+    font-size: 25px;
+    margin-left: 50px;
+    transition: .5s;
+}
+.logo a:hover{
+    color: #fff;
+}
+.navbar{
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.navbar a{
+    margin-left: 40px;
+    transition: .5s;
+}
+.navbar a:hover{
+    color: #fff;
+}
+.header{
+    padding: 18px 17rem;
+    position: fixed;
+    width: 100%;
+}
+
+.first{
+    background-image: linear-gradient(to bottom, rgb(189 160 139 / 80%) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25rem;
+    color: #fff;
+    text-align: center;
+    
+}
+.first h1{
+    font-size: 56px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.divider{
+    width: 60px;
+    border: 0;
+    display: inline-block;
+    background-color: #f4623a;
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    opacity: 1;
+}
+hr{
+    border: 0;
+}
+.text{
+    width: 85%;
+    margin: auto;
+}
+.text p{
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+}
+.text a{
+    font-weight: bold;
+    background-color: #f4623a;
+    border-radius: 35px;
+    font-size: 15px;
+    color: #fff;
+    padding: 25px 35px;
+    transition: .5s;
+}
+.text a:hover{
+    background-color: #be421f;
+}
+.second{
+    padding: 8rem;
+    background-color: #f4623a;
+    text-align: center;
+    color: #fff;
+}
+.second .divider2{
+    background-color: #fff;
+}
+.second a{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #fff;
+    color: black;
+    display: inline-block;
+}
+.second p{
+    width: 53%;
+    
+    font-size: 20px;
+    margin: auto;
+}
+.text2 p{
+    margin-bottom: 30px;
+}
