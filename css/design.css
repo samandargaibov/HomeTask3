@@ -49,7 +49,6 @@ p{
     position: fixed;
     width: 100%;
 }
-
 .first{
     background-image: linear-gradient(to bottom, rgb(189 160 139 / 80%) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
     background-position: center;
